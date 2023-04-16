@@ -45,3 +45,4 @@ Upper_fence= Q3 +(1.5* IQR)
 print(Lower_fence,Upper_fence)
 
 sns.boxplot(dataset)
+
