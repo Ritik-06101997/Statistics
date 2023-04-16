@@ -57,3 +57,30 @@ communications.
 ![image](https://user-images.githubusercontent.com/41362257/230788531-41d09b01-c726-4720-968c-9e2ad9e55520.png)
 ![image](https://user-images.githubusercontent.com/41362257/230788544-342be783-bcd5-4586-a641-b5f1b5486ca2.png)
 
+Standard Deviation and Variance
+Formulae
+The variance of a set of n equally likely values can be written as:
+![image](https://user-images.githubusercontent.com/41362257/232330609-0bc3c831-78d8-4cd9-a0d5-8581eb935fac.png)
+
+Deviations are squared to prevent negative values (deviations below the mean) from canceling out the positive values. This works because a negative number squared becomes a positive value. If you had a simple data set with deviations from the mean of +5, +2, -1, and -6, the sum of the deviations will come out as zero if the values aren’t squared (i.e. 5 + 2 - 1 - 6 = 0).
+
+Real World Applications
+Variance is expressed as a mathematical dispersion. Since it’s an arbitrary number relative to the original measurements of the data set, it is difficult to visualize and apply in a real-world sense. Finding the variance is usually just the final step before finding the standard deviation. Variance values are sometimes used in finance and statistical formulas.
+
+Standard deviation, which is expressed in the original units of the data set, is much more intuitive and closer to the values of the original data set. It is most often used to analyze demographics or population samples to gain a sense of what is normal in the population.
+
+Finding outliers
+In a normal distribution, about 68% of the population (or values) falls within 1 standard deviation (1σ) of the mean and about 94% fall within 2σ. Values that differ from the mean by 1.7σ or more are usually considered outliers.
+![image](https://user-images.githubusercontent.com/41362257/232331314-a60b0025-783e-452b-a4e7-885ab3b26998.png)
+Sample Standard Deviation
+In real world applications, data sets used usually represent population samples, rather than entire populations. A slightly modified formula is used if population-wide conclusions are to be drawn from a partial sample.
+
+A ‘sample standard deviation’ is used if all you have is a sample, but you wish to make a statement about the population standard deviation from which the sample is drawn
+![image](https://user-images.githubusercontent.com/41362257/232331550-90f423e7-af26-46cf-9e79-86d397735962.png)
+The only way sample standard deviation formula differs from the standard deviation formula is the “-1” in the denominator.
+
+Using the dandelion example, this formula would be needed if we sampled only 6 dandelions, but wanted to use that sample to state the standard deviation for the entire field with hundreds of dandelions.
+
+The sum of squares would now be divided by 5 instead of 6 (n - 1), which gives a variance of 8.7 (instead of 7.25), and a sample standard deviation of 2.95 inches, instead of 2.69 inches for the original standard deviation. This change is used to find a margin of error in a sample (9% in this case).
+
+
